@@ -1,0 +1,1 @@
+document.getElementById('btn').addEventListener('click',()=>{document.getElementById('msg').textContent='Clicked at '+new Date().toLocaleString()});
