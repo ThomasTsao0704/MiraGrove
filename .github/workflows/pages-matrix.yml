@@ -1,0 +1,8 @@
+name: Deploy multiple apps to GitHub Pages
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo Ready to deploy multiple apps
