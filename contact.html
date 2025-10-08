@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <title>聯絡我｜合作與諮詢｜Thomas</title>
+  <meta name="description" content="歡迎合作／諮詢，或索取更完整的作品與簡介。" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23F7F3EE'/><text x='50' y='62' text-anchor='middle' font-size='56' fill='%23A47449' font-family='Arial, Helvetica, sans-serif'>T</text></svg>">
+  <meta property="og:title" content="聯絡我｜合作與諮詢｜Thomas" />
+  <meta property="og:description" content="歡迎合作／諮詢，或索取更完整的作品與簡介。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/f7f3ee/a47449&text=Thomas" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta name="theme-color" content="#F7F3EE" />
+  <link rel="canonical" href="/contact.html"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.tailwind) {
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                base: '#F7F3EE',
+                ink: '#2A2F36',
+                subink: '#5F6B7A',
+                tea: '#A47449',
+                mist: '#E9E3DC',
+                haze: '#DDE3EA',
+                leaf: '#7C9B7A'
+              },
+              borderRadius: { xl2: '1.5rem' },
+              boxShadow: {
+                soft: '0 20px 60px rgba(42,47,54,.10)',
+                card: '0 8px 30px rgba(42,47,54,.06)'
+              },
+              fontFamily: {
+                inter: ['Inter','system-ui','sans-serif'],
+                noto: ['Noto Sans TC','Inter','system-ui','sans-serif']
+              }
+            }
+          }
+        }
+      }
+    });
+  </script>
+  <style>
+    :root { --ring: 0 0 0 4px rgba(164,116,73,.28); }
+    .focus-ring:focus { outline: none; box-shadow: var(--ring); }
+    body { background-image: radial-gradient(40rem 40rem at -10% -10%, rgba(164,116,73,.12), transparent), radial-gradient(30rem 30rem at 110% -20%, rgba(125,155,122,.10), transparent); }
+    .sr-only:not(:focus):not(:active) { position: absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0,0,0,0); border:0; }
+  </style>
+</head>
+<body class="bg-base text-ink font-noto">
+  <header class="sticky top-0 z-50 bg-base/80 backdrop-blur border-b border-ink/5 shadow-soft" role="navigation" aria-label="主選單">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        <a href="/index.html" class="flex items-center gap-3 group" aria-label="回首頁">
+          <div class="w-9 h-9 rounded-2xl bg-mist grid place-items-center shadow-card border border-ink/5">
+            <span class="font-black text-lg text-tea">T</span>
+          </div>
+          <span class="font-inter font-semibold tracking-wide">Thomas</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="/index.html" class="hover:text-tea">首頁</a>
+          <a href="/works.html" class="hover:text-tea">作品</a>
+          <a href="/stocks.html" class="hover:text-tea">股票篩選</a>
+          <a href="/services.html" class="hover:text-tea">服務方案</a>
+          <a href="/blog.html" class="hover:text-tea">洞察</a>
+          <a href="/media-kit.html" class="hover:text-tea">Media Kit</a>
+          <a href="/contact.html" aria-current="page" class="text-tea">聯絡我</a>
+          <a href="/contact.html" class="ml-2 inline-flex items-center gap-2 bg-tea text-base px-4 py-2 rounded-xl focus-ring hover:bg-leaf transition">
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l8 8 8-8M4 20h16" stroke="currentColor" stroke-width="1.6"/></svg>
+            預約諮詢
+          </a>
+        </nav>
+        <button id="menuBtn" class="md:hidden p-2 rounded-lg hover:bg-mist" aria-label="開啟選單">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" aria-hidden="true" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-ink/5 bg-base/95">
+      <div class="max-w-6xl mx-auto px-4 py-4 grid gap-3 text-sm" role="menu">
+        <a href="/index.html" class="hover:text-tea">首頁</a>
+        <a href="/works.html" class="hover:text-tea">作品</a>
+        <a href="/stocks.html" class="hover:text-tea">股票篩選</a>
+        <a href="/services.html" class="hover:text-tea">服務方案</a>
+        <a href="/blog.html" class="hover:text-tea">洞察</a>
+        <a href="/media-kit.html" class="hover:text-tea">Media Kit</a>
+        <a href="/contact.html" class="inline-flex items-center justify-center gap-2 bg-tea text-base px-4 py-2 rounded-xl focus-ring hover:bg-leaf transition">預約諮詢</a>
+      </div>
+    </div>
+  </header>
+
+<main class="py-20" tabindex="-1">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+    <section>
+      <h1 class="text-3xl font-extrabold">聯絡我</h1>
+      <p class="text-subink mt-2">歡迎合作／諮詢，或索取更完整的作品與簡介</p>
+      <div class="mt-6 grid gap-3 text-sm">
+        <a href="mailto:hi@thomas.com" class="inline-flex items-center gap-2 hover:text-tea">
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6l10 7L22 6" stroke="currentColor" stroke-width="1.6"/><path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="1.6"/></svg>
+          hi@thomas.com
+        </a>
+        <a href="https://breaktheframe-tw.notion.site" target="_blank" class="inline-flex items-center gap-2 hover:text-tea" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/></svg>
+          Notion 模板商店
+        </a>
+      </div>
+    </section>
+
+    <form id="contactForm" class="bg-white/80 border border-ink/5 rounded-[24px] p-6 grid gap-4 shadow-card" action="#" method="post" onsubmit="return handleSubmit(event)">
+      <input type="hidden" name="_subject" value="Thomas 個人網站聯絡表單" />
+      <div>
+        <label for="name" class="block text-sm mb-1">您的稱呼</label>
+        <input id="name" name="name" required class="w-full bg-white border border-ink/10 rounded-xl px-3 py-2 focus-ring" placeholder="例如：王先生 / 小美" />
+      </div>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div>
+          <label for="email" class="block text-sm mb-1">Email</label>
+          <input id="email" name="email" type="email" required class="w-full bg-white border border-ink/10 rounded-xl px-3 py-2 focus-ring" placeholder="you@mail.com" />
+        </div>
+        <div>
+          <label for="type" class="block text-sm mb-1">需求類型</label>
+          <select id="type" name="type" class="w-full bg-white border border-ink/10 rounded-xl px-3 py-2 focus-ring">
+            <option>網站/工具開發</option>
+            <option>資料分析/可視化</option>
+            <option>品牌定位/設計</option>
+            <option>其他</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <label for="message" class="block text-sm mb-1">想說的話</label>
+        <textarea id="message" name="message" rows="4" class="w-full bg-white border border-ink/10 rounded-xl px-3 py-2 focus-ring" placeholder="請簡述你的需求、時程與預算級距（若有）"></textarea>
+      </div>
+      <button class="mt-2 inline-flex items-center justify-center gap-2 bg-tea text-base px-5 py-3 rounded-xl focus-ring hover:bg-leaf transition">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        送出表單
+      </button>
+      <p id="formMsg" class="text-sm text-subink" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</main>
+  <footer class="py-10 border-t border-ink/5 bg-white/60 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-subink">
+      <p>© <span id="year"></span> Thomas. All rights reserved.</p>
+      <div class="flex items-center gap-4">
+        <a href="#" class="hover:text-tea">回到頂部 ↑</a>
+        <a href="/privacy.html" class="hover:text-tea">隱私權與免責</a>
+      </div>
+    </div>
+  </footer>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => { 
+      const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
+      const btn = document.getElementById('menuBtn'); const menu = document.getElementById('mobileMenu');
+      btn && btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+    });
+  </script>
+
+<script defer>
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/XXXXXXXX'; // TODO: 換成你的 Formspree ID
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const f = e.currentTarget;
+    const data = Object.fromEntries(new FormData(f).entries());
+    const msgEl = document.getElementById('formMsg');
+    msgEl.textContent = '送出中…';
+    try {
+      const res = await fetch(FORMSPREE_ENDPOINT, { method:'POST', headers:{'Accept':'application/json'}, body:new FormData(f) });
+      if (res.ok) { f.reset(); msgEl.textContent = '已成功送出，將盡快回覆你！'; return false; }
+      const subject = encodeURIComponent(`網站聯絡表單｜${data.name}｜${data.type}`);
+      const body = encodeURIComponent(`姓名：${data.name}\nEmail：${data.email}\n需求類型：${data.type}\n內容：\n${data.message}`);
+      window.location.href = `mailto:hi@thomas.com?subject=${subject}&body=${body}`;
+      msgEl.textContent = '已開啟郵件程式，若未自動帶出，請直接寄信至你的信箱。';
+    } catch(err) { msgEl.textContent = '連線異常，請稍後重試或直接寄信。'; }
+    return false;
+  }
+  window.handleSubmit = handleSubmit;
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas",
+  "alternateName": ["小湯姆","Thomas"],
+  "jobTitle": "資料驅動的獨立創作者",
+  "description": "我喜歡用資料與設計，把複雜的問題變得簡單，也讓解決方案更貼近人心。",
+  "url": "https://thomastsao0704.github.io/WebApp/",
+  "image": "https://dummyimage.com/800x800/f7f3ee/a47449&text=Thomas",
+  "sameAs": ["https://breaktheframe-tw.notion.site"]
+}
+</script>
+
+</body>
+</html>
